@@ -6,7 +6,7 @@ export default function Home() {
       {/* Header */}
       <header className="flex flex-col items-center mb-10">
         <Image
-          src="/photo/Screenshot 2023-10-10 154121.png" // เปลี่ยนเป็นรูปของคุณ
+          src="/photo/Screenshot 2023-10-10 154121.png" 
           alt="Profile Picture"
           width={150}
           height={150}
