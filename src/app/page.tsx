@@ -20,7 +20,8 @@ export default function Home() {
         <h2 className="text-2xl font-bold border-b-2 border-gray-300 mb-4 inline-block">
           About me
         </h2>
-        
+        <p className="text-gray-600">This is me Tomas</p>
+
       </section>
 
       {/* Programming Skills */}
@@ -41,8 +42,8 @@ export default function Home() {
         <h2 className="text-2xl font-bold border-b-2 border-gray-300 mb-4 inline-block">
           Contact
         </h2>
-        <p className="text-gray-600">อีเมล: 66026055@up.ac.th</p>
-        <p className="text-gray-600">เบอร์โทร: 0934949511</p>
+        <p className="text-gray-600">66026055@up.ac.th</p>
+        <p className="text-gray-600">เ0934949511</p>
       </section>
     </div>
   );
