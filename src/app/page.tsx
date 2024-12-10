@@ -16,12 +16,12 @@ export default function Home() {
         <p className="text-gray-600">Tomas</p>
       </header>
 
+      {/* About Me Section */}
       <section className="text-center mb-10">
         <h2 className="text-2xl font-bold border-b-2 border-gray-300 mb-4 inline-block">
-          About me
+          About Me
         </h2>
         <p className="text-gray-600">This is me Tomas</p>
-
       </section>
 
       {/* Programming Skills */}
@@ -33,7 +33,7 @@ export default function Home() {
           <li className="bg-white p-4 rounded shadow">JavaScript</li>
           <li className="bg-white p-4 rounded shadow">Python</li>
           <li className="bg-white p-4 rounded shadow">React</li>
-          <li className="bg-white p-4 rounded shadow">SQL</li>
+          <li className="bg-white p-4 rounded shadow">Next.js</li>
         </ul>
       </section>
 
@@ -42,8 +42,37 @@ export default function Home() {
         <h2 className="text-2xl font-bold border-b-2 border-gray-300 mb-4 inline-block">
           Contact
         </h2>
-        <p className="text-gray-600">66026055@up.ac.th</p>
-        <p className="text-gray-600">เ0934949511</p>
+        <p className="text-gray-600">
+          <a
+            href="https://www.facebook.com/teetadar.pathan.9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" hover:underline"
+          >
+            Facebook
+          </a>
+        </p>
+        <p className="text-gray-600">
+          <a
+            href="https://www.instagram.com/thithada_tomas/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" hover:underline"
+          >
+            Instagram
+          </a>
+        </p>
+        <p className="text-gray-600">
+          <a
+            href="mailto:66026055@up.ac.th"
+            className=" hover:underline"
+          >
+            Email
+          </a>
+        </p>
+        <p className="text-gray-600">
+            0934949511
+        </p>
       </section>
     </div>
   );
