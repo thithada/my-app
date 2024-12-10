@@ -14,7 +14,6 @@ export default function Home() {
         />
         <h1 className="text-3xl font-bold mt-4">Thithada Islam</h1>
         <p className="text-gray-600">Tomas</p>
-        <p className="text-gray-600">Tomas_Bracnh</p>
       </header>
 
       {/* About Me Section */}
