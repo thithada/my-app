@@ -13,7 +13,7 @@ export default function Home() {
           className="rounded-full"
         />
         <h1 className="text-3xl font-bold mt-4">Thithada Islam</h1>
-        <p className="text-gray-600">Tomasssss</p>
+        <p className="text-gray-600">Tomas</p>
       </header>
 
       {/* About Me Section */}
