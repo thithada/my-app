@@ -6,7 +6,7 @@ export default function Home() {
       {/* About Me */}
       <header className="flex flex-col items-center text-center mb-10">
         <Image
-          src="/photo/Screenshot 2023-10-10 154121.png" 
+          src="/photo/Screenshot 2023-10-10 154121.png"
           alt="Profile Picture"
           width={150}
           height={150}
@@ -30,10 +30,18 @@ export default function Home() {
           Programming Skills
         </h2>
         <ul className="grid grid-cols-2 gap-4 mt-4">
-          <li className="bg-white p-4 rounded shadow">JavaScript</li>
-          <li className="bg-white p-4 rounded shadow">Python</li>
-          <li className="bg-white p-4 rounded shadow">React</li>
-          <li className="bg-white p-4 rounded shadow">Next.js</li>
+          <li className="bg-white p-4 rounded shadow hover:scale-105 transform transition-transform duration-200">
+            JavaScript
+          </li>
+          <li className="bg-white p-4 rounded shadow hover:scale-105 transform transition-transform duration-200">
+            Python
+          </li>
+          <li className="bg-white p-4 rounded shadow hover:scale-105 transform transition-transform duration-200">
+            React
+          </li>
+          <li className="bg-white p-4 rounded shadow hover:scale-105 transform transition-transform duration-200">
+            Next.js
+          </li>
         </ul>
       </section>
 
@@ -47,7 +55,7 @@ export default function Home() {
             href="https://www.facebook.com/teetadar.pathan.9"
             target="_blank"
             rel="noopener noreferrer"
-            className=" hover:underline"
+            className="hover:underline"
           >
             Facebook
           </a>
@@ -57,22 +65,17 @@ export default function Home() {
             href="https://www.instagram.com/thithada_tomas/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
-            className=" hover:underline"
+            className="hover:underline"
           >
             Instagram
           </a>
         </p>
         <p className="text-gray-600">
-          <a
-            href="mailto:66026055@up.ac.th"
-            className=" hover:underline"
-          >
+          <a href="mailto:66026055@up.ac.th" className="hover:underline">
             Email
           </a>
         </p>
-        <p className="text-gray-600">
-            0934949511
-        </p>
+        <p className="text-gray-600">0934949511</p>
       </section>
     </div>
   );
